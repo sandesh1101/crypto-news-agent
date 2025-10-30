@@ -1,4 +1,4 @@
-from utils.scheduler import start_scheduler
+from utils.scheduler import start_scheduler, run_daily_agent
 
 if __name__ == "__main__":
-    start_scheduler()
+    run_daily_agent()

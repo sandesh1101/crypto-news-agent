@@ -36,3 +36,7 @@ jobs:
     
     - name: Run the agent
       run: python main.py
+      
+    - name: Run the agent
+      timeout-minutes: 5  # Stops after 5 minutes
+      run: python main.py
