@@ -40,3 +40,239 @@ News Update - 2025-10-30 17:44:06.003225-04:00
 5. Solana event shortened amid crypto crackdown in China: Report (Cointelegraph) - https://cointelegraph.com/news/solana-event-china-crypto-crackdown
 
 
+
+==================================================
+News Update - 2025-10-30 18:27:07.635478-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 18:27 ==========
+1. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+2. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+3. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+4. Visa Opens The Floodgates — Stablecoin Payments To Span 4 Blockchains (Bitcoinist)
+   URL: https://bitcoinist.com/visa-opens-the-floodgates-stablecoin-payments-to-span-4-blockchains/
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+5. Bitcoin Sentiment Slides as Market Dips: Why Bearish Odds Are Now Increasing (Decrypt)
+   URL: https://decrypt.co/346697/bitcoin-sentiment-slides-market-dips-why-bearish-odds-prediction-market
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+
+
+==================================================
+News Update - 2025-10-30 18:30:55.451600-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 18:30 ==========
+1. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+2. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+3. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+4. Visa Opens The Floodgates — Stablecoin Payments To Span 4 Blockchains (Bitcoinist)
+   URL: https://bitcoinist.com/visa-opens-the-floodgates-stablecoin-payments-to-span-4-blockchains/
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+5. Bitcoin Sentiment Slides as Market Dips: Why Bearish Odds Are Now Increasing (Decrypt)
+   URL: https://decrypt.co/346697/bitcoin-sentiment-slides-market-dips-why-bearish-odds-prediction-market
+   Summary: Error summarizing article: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to ...
+
+
+
+==================================================
+News Update - 2025-10-30 18:34:17.301180-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 18:34 ==========
+1. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/doc...
+
+2. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Error summarizing article: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/doc...
+
+3. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Error summarizing article: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/doc...
+
+4. Visa Opens The Floodgates — Stablecoin Payments To Span 4 Blockchains (Bitcoinist)
+   URL: https://bitcoinist.com/visa-opens-the-floodgates-stablecoin-payments-to-span-4-blockchains/
+   Summary: Error summarizing article: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/doc...
+
+5. Bitcoin Sentiment Slides as Market Dips: Why Bearish Odds Are Now Increasing (Decrypt)
+   URL: https://decrypt.co/346697/bitcoin-sentiment-slides-market-dips-why-bearish-odds-prediction-market
+   Summary: Error summarizing article: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/doc...
+
+
+
+==================================================
+News Update - 2025-10-30 18:40:16.153086-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 18:40 ==========
+1. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Rate limit reached. Please try again later.
+
+2. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Rate limit reached. Please try again later.
+
+3. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Rate limit reached. Please try again later.
+
+4. Visa Opens The Floodgates — Stablecoin Payments To Span 4 Blockchains (Bitcoinist)
+   URL: https://bitcoinist.com/visa-opens-the-floodgates-stablecoin-payments-to-span-4-blockchains/
+   Summary: Rate limit reached. Please try again later.
+
+5. Bitcoin Sentiment Slides as Market Dips: Why Bearish Odds Are Now Increasing (Decrypt)
+   URL: https://decrypt.co/346697/bitcoin-sentiment-slides-market-dips-why-bearish-odds-prediction-market
+   Summary: Rate limit reached. Please try again later.
+
+
+
+==================================================
+News Update - 2025-10-30 19:00:56.321567-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 19:02 ==========
+1. HBAR Slides 6% in 24 Hours as NYSE Listing Fails to Spark Rally, But Analysts Still See Upside (newsBTC)
+   URL: http://www.newsbtc.com/news/hbar-slides-6-in-24-hours-as-nyse-listing-fails-to-spark-rally-but-analysts-still-see-upside/
+   Summary: Hedera’s much-anticipated debut on the New York Stock Exchange through the Canary Capital Hedera ETF (Ticker: HBR) marked a major milestone for the network. The listing initially sparked optimism, sending HBAR soaring over 25% to $0.2191. Within 24 hours, HBAR has slid nearly 6%.
+
+2. MetaMask Maker Consensys Plans IPO With JPMorgan, Goldman: Axios (Decrypt)
+   URL: https://decrypt.co/346732/metamask-maker-consensys-plans-ipo-with-jpmorgan-goldman-axios
+   Summary: Consensys reportedly hired JPMorgan and Goldman Sachs to lead its initial public offering. The planned listing follows a wave of crypto-company debuts this year. Consensys toldDecryptit is "constantly exploring opportunities to expand its impact"
+
+3. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation. Tokenization is the process of converting real-world assets such as stocks, real estate or deb.
+
+4. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation. Tokenization is the process of converting real-world assets such as stocks, real estate or deb.
+
+5. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Consensys, creator of the MetaMask wallet, plans to go public. The MetaMask maker’s public debut could be the biggest Ethereum-native listing yet, amid a wave of crypto firms hitting U.S. markets. JPMorgan and Goldman Sachs to lead IPO.
+
+
+
+==================================================
+News Update - 2025-10-30 19:01:44.754692-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 19:02 ==========
+1. HBAR Slides 6% in 24 Hours as NYSE Listing Fails to Spark Rally, But Analysts Still See Upside (newsBTC)
+   URL: http://www.newsbtc.com/news/hbar-slides-6-in-24-hours-as-nyse-listing-fails-to-spark-rally-but-analysts-still-see-upside/
+   Summary: Hedera’s much-anticipated debut on the New York Stock Exchange through the Canary Capital Hedera ETF (Ticker: HBR) marked a major milestone for the network. The listing initially sparked optimism, sending HBAR soaring over 25% to $0.2191. Within 24 hours, HBAR has slid nearly 6%.
+
+2. MetaMask Maker Consensys Plans IPO With JPMorgan, Goldman: Axios (Decrypt)
+   URL: https://decrypt.co/346732/metamask-maker-consensys-plans-ipo-with-jpmorgan-goldman-axios
+   Summary: Consensys reportedly hired JPMorgan and Goldman Sachs to lead its initial public offering. The planned listing follows a wave of crypto-company debuts this year. Consensys toldDecryptit is "constantly exploring opportunities to expand its impact"
+
+3. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation. Tokenization is the process of converting real-world assets such as stocks, real estate or deb.
+
+4. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation. Tokenization is the process of converting real-world assets such as stocks, real estate or deb.
+
+5. Consensys Plans Public Debut, Taps JPMorgan and Goldman Sachs to Lead IPO: Axios (Biztoc.com)
+   URL: https://biztoc.com/x/8ac0d693ae3ca755
+   Summary: Consensys, creator of the MetaMask wallet, plans to go public. The MetaMask maker’s public debut could be the biggest Ethereum-native listing yet, amid a wave of crypto firms hitting U.S. markets. JPMorgan and Goldman Sachs to lead IPO.
+
+
+
+==================================================
+News Update - 2025-10-30 19:16:03.591720-04:00
+==================================================
+
+
+========== CRYPTO NEWS - 2025-10-30 19:16 ==========
+1. NASDAQ-Listed Dogecoin Treasury Highlights Where DOGE Is Better Than Bitcoin (Bitcoinist)
+   URL: https://bitcoinist.com/where-dogecoin-surpass-bitcoin/
+   Summary: Nasdaq-listed Dogecoin treasury company Bit Origin highlighted the areas in which DOGE is outpacing Bitcoin. The company made the case for why the meme coin is the better option for daily payments. Bit Origin stated that companies and individuals hold the memeCoin because of itslow transaction fees, utility, meme appeal, and celebrity endorsements.
+
+2. HBAR Slides 6% in 24 Hours as NYSE Listing Fails to Spark Rally, But Analysts Still See Upside (newsBTC)
+   URL: http://www.newsbtc.com/news/hbar-slides-6-in-24-hours-as-nyse-listing-fails-to-spark-rally-but-analysts-still-see-upside/
+   Summary: HBAR Slides 6% in 24 Hours as NYSE Listing Fails to Spark Rally, But Analysts Still See Upside Morbi pretium leo et nisl aliquam mollis. Quisque arcu lorem, ultricies quis pellentesque nec, ullamcorper eu odio. Hedera’s much-anticipated debut on the New York Stock Exchange through the Canary Capital Hedera ETF (Ticker: HBR) marked a major milestone for the network, positioning it alongside Bitcoin and Ethereum as one of the few cryptocurrencies with a regulated U.
+
+3. MetaMask Maker Consensys Plans IPO With JPMorgan, Goldman: Axios (Decrypt)
+   URL: https://decrypt.co/346732/metamask-maker-consensys-plans-ipo-with-jpmorgan-goldman-axios
+   Summary: Consensys reportedly hired JPMorgan and Goldman Sachs to lead its initial public offering. IPO could take place as soon as 2026, though details on the size and valuation were not disclosed.
+
+4. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation.
+
+5. Securitize, BNY Mellon launch tokenized fund backed by structured credit (Cointelegraph)
+   URL: https://cointelegraph.com/news/securitize-bny-mellon-tokenized-fund-structured-credit
+   Summary: Securitize and BNY Mellon are bringing AAA-rated collateralized loan obligations onchain. Grove, an institutional-grade credit protocol, plans to anchor the fund with a $100 million allocation.
+
+

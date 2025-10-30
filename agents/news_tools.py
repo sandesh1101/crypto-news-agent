@@ -1,9 +1,11 @@
 import logging
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timedelta
-from langchain.tools import tool
 import requests
 from config.config import NEWS_API_KEY
+from agents.summarize_tool import summarize_article
+import json
+from langchain.tools import tool
 
 # Configure logging
 logging.basicConfig(
@@ -84,33 +86,53 @@ def fetch_news(query: str, is_crypto: bool = True) -> List[Dict[str, Any]]:
         logger.error(f"Unexpected error: {e}")
         return []
 
-def get_crypto_news() -> str:
-    """Return top 5 cryptocurrency news headlines from the last 24 hours."""
-    articles = fetch_news("cryptocurrency", is_crypto=True)
+def get_crypto_news() -> List[Dict[str, Any]]:
+    """
+    Return top 5 cryptocurrency news headlines from the last 24 hours with summaries.
     
-    if not articles:
-        logger.warning("No crypto news articles found")
-        return "No cryptocurrency news available at the moment. Please try again later."
+    Returns:
+        List[Dict]: List of news articles, each with title, source, url, and summary
+    """
+    try:
+        news = fetch_news('cryptocurrency OR bitcoin OR ethereum', is_crypto=True)
         
-    result = [
-        f"{i+1}. {article['title']} ({article['source']['name']}) - {article['url']}"
-        for i, article in enumerate(articles)
-    ]
-    return "\n".join(result)
+        # Add summaries to each article
+        for article in news[:5]:  # Process only top 5
+            try:
+                summary = summarize_article(article['url'])
+                article['summary'] = summary
+            except Exception as e:
+                logger.warning(f"Could not summarize {article['url']}: {str(e)}")
+                article['summary'] = "Summary not available"
+                
+        return news[:5]  # Return top 5 results with summaries
+    except Exception as e:
+        logger.error(f"Error in get_crypto_news: {str(e)}")
+        return []
 
-def get_stock_news() -> str:
-    """Return top 5 stock market news headlines from the last 24 hours."""
-    articles = fetch_news("stock market", is_crypto=False)
+def get_stock_news() -> List[Dict[str, Any]]:
+    """
+    Return top 5 stock market news headlines from the last 24 hours with summaries.
     
-    if not articles:
-        logger.warning("No stock news articles found")
-        return "No stock market news available at the moment. Please try again later."
+    Returns:
+        List[Dict]: List of news articles, each with title, source, url, and summary
+    """
+    try:
+        news = fetch_news('stock market OR stocks OR S&P 500', is_crypto=False)
         
-    result = [
-        f"{i+1}. {article['title']} ({article['source']['name']}) - {article['url']}"
-        for i, article in enumerate(articles)
-    ]
-    return "\n".join(result)
+        # Add summaries to each article
+        for article in news[:5]:  # Process only top 5
+            try:
+                summary = summarize_article(article['url'])
+                article['summary'] = summary
+            except Exception as e:
+                logger.warning(f"Could not summarize {article['url']}: {str(e)}")
+                article['summary'] = "Summary not available"
+                
+        return news[:5]  # Return top 5 results with summaries
+    except Exception as e:
+        logger.error(f"Error in get_stock_news: {str(e)}")
+        return []
 
 # LangChain tool wrappers for agent usage
 get_crypto_news_tool = tool("get_crypto_news")(get_crypto_news)
