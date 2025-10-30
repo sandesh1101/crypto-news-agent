@@ -9,6 +9,7 @@ on:
 jobs:
   run-agent:
     runs-on: ubuntu-latest
+    timeout-minutes: 5  # Stops the entire job after 5 minutes
     
     steps:
     - uses: actions/checkout@v3
@@ -35,8 +36,4 @@ jobs:
         sed -i "s|YOUR_NEWS_API_KEY|$NEWS_API_KEY|g" .env
     
     - name: Run the agent
-      run: python main.py
-      
-    - name: Run the agent
-      timeout-minutes: 5  # Stops after 5 minutes
       run: python main.py

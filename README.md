@@ -21,6 +21,4 @@ python main.py
 ## Hosting Options
 
 - **Locally**: Run continuously using `python main.py` or as a background process.
-- **Free cloud**:
-  - **Replit**: Paste the project, enable "Always On"
-  - **Render.com**: Create a Worker, start with `python main.py`
+- **GitHub Actions**: This project is hosted using **GitHub Actions**, which automatically runs the agent every day at **7 AM** to fetch the latest crypto or stock news. The workflow installs dependencies, runs `main.py`, and exits within a few minutes. No external hosting is needed — GitHub Actions handles scheduling and execution for free.

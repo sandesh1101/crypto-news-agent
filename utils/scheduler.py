@@ -4,8 +4,7 @@ import time
 import logging
 import pytz
 from datetime import datetime, time as dt_time
-from typing import Optional
-from typing import Callable, Dict, Any
+from typing import Optional, List, Dict, Any, Callable
 from agents.news_tools import get_crypto_news, get_stock_news
 
 # Configure logging
@@ -27,22 +26,41 @@ def get_current_time() -> datetime:
     """Get current time in target timezone."""
     return datetime.now(TARGET_TIMEZONE)
 
-def format_news(news: str, news_type: str) -> str:
-    """Format news with a nice header."""
-    header = f"\n{'='*10} {news_type.upper()} NEWS - {get_current_time().strftime('%Y-%m-%d %H:%M')} {'='*10}"
-    return f"{header}\n{news}\n"
+def format_news(news_items: List[Dict[str, Any]], news_type: str) -> str:
+    """Format news items with titles, sources, and summaries."""
+    if not news_items:
+        return f"No {news_type.lower()} news available at the moment."
+    
+    timestamp = get_current_time().strftime('%Y-%m-%d %H:%M')
+    header = f"\n{'='*10} {news_type.upper()} NEWS - {timestamp} {'='*10}\n"
+    
+    formatted_news = []
+    for i, item in enumerate(news_items, 1):
+        title = item.get('title', 'No title')
+        source = item.get('source', {}).get('name', 'Unknown source')
+        url = item.get('url', '#')
+        summary = item.get('summary', 'No summary available')
+        
+        formatted = (
+            f"{i}. {title} ({source})\n"
+            f"   URL: {url}\n"
+            f"   Summary: {summary}\n"
+        )
+        formatted_news.append(formatted)
+    
+    return header + '\n'.join(formatted_news)
 
 def get_news() -> str:
     """Fetch and return news, trying crypto first, then stock if crypto fails."""
     try:
         # Try to get crypto news first
         crypto_news = get_crypto_news()
-        if crypto_news and not crypto_news.startswith("No cryptocurrency news"):
+        if crypto_news and isinstance(crypto_news, list) and len(crypto_news) > 0:
             return format_news(crypto_news, "CRYPTO")
             
         # Fall back to stock news
         stock_news = get_stock_news()
-        if stock_news and not stock_news.startswith("No stock market news"):
+        if stock_news and isinstance(stock_news, list) and len(stock_news) > 0:
             return format_news(stock_news, "STOCK")
             
         return "No news available at the moment."
