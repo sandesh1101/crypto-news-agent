@@ -5,10 +5,10 @@ from agents.news_tools import (
     get_stock_news_tool,
 )
 import os
-from config.config import OPENAI_API_KEY
+from dotenv import load_dotenv
 
-# Set OpenAI API Key as environment variable
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize the LLM
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)

@@ -2,10 +2,15 @@ import logging
 from typing import List, Dict, Any, Optional
 from datetime import datetime, timedelta
 import requests
-from config.config import NEWS_API_KEY
+import os
+from dotenv import load_dotenv
 from agents.summarize_tool import summarize_article
 import json
 from langchain.tools import tool
+
+# Load environment variables from .env file
+load_dotenv()
+NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 
 # Configure logging
 logging.basicConfig(

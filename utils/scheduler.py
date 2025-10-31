@@ -5,7 +5,11 @@ import logging
 import pytz
 from datetime import datetime, time as dt_time
 from typing import Optional, List, Dict, Any, Callable
+from dotenv import load_dotenv
 from agents.news_tools import get_crypto_news, get_stock_news
+
+# Load environment variables
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
@@ -79,12 +83,12 @@ def run_daily_agent() -> None:
         news = get_news()
         
         # Ensure output directory exists
-        from config.config import NEWS_OUTPUT_DIR
-        os.makedirs(NEWS_OUTPUT_DIR, exist_ok=True)
+        news_output_dir = os.getenv('NEWS_OUTPUT_DIR', 'news_output')
+        os.makedirs(news_output_dir, exist_ok=True)
         
         # Save to a dated news file in the output directory
         date_str = current_time.strftime('%Y-%m-%d')
-        news_file = os.path.join(NEWS_OUTPUT_DIR, f'news_{date_str}.txt')
+        news_file = os.path.join(news_output_dir, f'news_{date_str}.txt')
         
         with open(news_file, 'a', encoding='utf-8') as f:
             f.write(f"\n{'='*50}\n")
